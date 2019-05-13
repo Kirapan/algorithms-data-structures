@@ -1,3 +1,3 @@
-# AlgoCasts
+# Coding Inteview Bootcamp
 
-Companion repo to a course on Udemy.com
+Repo for following a coding interview course on Udemy
