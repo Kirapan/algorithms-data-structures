@@ -30,8 +30,12 @@ const cleanString = (str) => {
 //     }
 //     return true;
 // }
+
+const cleanString2 = (str) => {
+    return str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
+}
 function anagrams(stringA, stringB) {
-    return cleanString(stringA).split('').sort().join('') === cleanString(stringB).split('').sort().join('');
+    return cleanString2(stringA) === cleanString2(stringB);
 }
 
 module.exports = anagrams;
